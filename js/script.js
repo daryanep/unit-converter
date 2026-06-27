@@ -34,5 +34,5 @@ function mass() {
     const kilos = Number(numEl.value) * 0.453592
     const pounds = Number(numEl.value) * 2.20462
 
-    masEl.textContent = `${Number(numEl.value)} kilos = ${pounds.toFixed(2)} pounds | ${Number(numEl.value)} pounds = ${kilos.toFixed(2)} kilos`
+    massEl.textContent = `${Number(numEl.value)} kilos = ${pounds.toFixed(2)} pounds | ${Number(numEl.value)} pounds = ${kilos.toFixed(2)} kilos`
 }
